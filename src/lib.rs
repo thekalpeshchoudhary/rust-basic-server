@@ -1,6 +1,6 @@
 use std::{
     sync::{
-        mpsc::{self, Receiver},
+        mpsc::{self},
         Arc, Mutex,
     },
     thread,
